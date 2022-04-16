@@ -1,2 +1,2 @@
 # website
-my site on the net of inter
+I stole this website from a very nice discord guy
