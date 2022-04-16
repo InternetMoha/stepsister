@@ -23,7 +23,7 @@ titleChanger = (text, delay) => {
 
 titleChanger(["Cent", "Cent#2220", "if you see this send nudes", "stepmommy.xyz/fmhy", "touch grass today", "#TB4L"], 2000);
 
-cheet('a w e s o m e', function () {
+cheet('c e n t', function () {
   let audio = new Audio("../assets/others/gecs.mp3")
   audio.play()
   document.getElementById("logo").src = "../assets/others/lol.gif";
