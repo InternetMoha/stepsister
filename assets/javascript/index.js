@@ -43,7 +43,7 @@ function thoughts() {
   const element = document.querySelector('#content')
   element.text = 'if you can see this you are awesome :3 - can you stfu im trying to fix this bad js -cent.'
 
-  fetch('https://www.reddit.com/r/Showerthoughts.json?raw_json=1&amp;limit=10')
+  fetch('https://www.reddit.com/r/quotes.json?raw_json=1&amp;limit=10')
     .then(res => res.text())
     .then(text => {
       if (!text) {
