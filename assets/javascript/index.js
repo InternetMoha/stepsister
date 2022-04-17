@@ -21,15 +21,12 @@ titleChanger = (text, delay) => {
   }, delay);
 };
 
-titleChanger(["Cent", "Cent#2220", "if you see this send nudes", "stepmommy.xyz/fmhy", "touch grass today", "#TB4L"], 2000);
+titleChanger(["Cent#2220", "الله اكبر", "if you see this send nudes", "stepmommy.xyz/fmhy", "you're gonna die", "#TB4L"], 2000);
 
 cheet('c e n t', function () {
   let audio = new Audio("../assets/others/gecs.mp3")
   audio.play()
   document.getElementById("logo").src = "../assets/others/lol.gif";
-  document.getElementById("download").src = "/assets/others/download-coin.gif"
-  document.getElementById("download").width = "25"
-  document.getElementById("download").height = "25"
 });
 cheet('2 2 2 0', function () {
   let audio = new Audio("../assets/others/the-end.mp3")
@@ -37,9 +34,9 @@ cheet('2 2 2 0', function () {
   document.getElementById("logo").src = "../assets/others/2270.gif";
   document.getElementById("download").src = "/assets/others/download-coin.gif"
   document.getElementById("download").href = "https://raddle.me/f/AntiCopyright/121477/how-to-anonymously-host-the-continued-development-of-youtube"
-  document.getElementById("download").width = "25"
-  document.getElementById("download").height = "25"
-  titleChanger(["HELP", "Cent#2220", "if you see this you're dead", "stepmommy.xyz/dead", "you can't escape here", "#SOS"], 2000);
+  document.getElementById("download").width = "30"
+  document.getElementById("download").height = "30"
+
 });
 
 function thoughts() {
