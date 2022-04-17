@@ -27,6 +27,7 @@ cheet('c e n t', function () {
   let audio = new Audio("../assets/others/gecs.mp3")
   audio.play()
   document.getElementById("logo").src = "../assets/others/lol.gif";
+  document.getElementById("download").src = "/assets/others/lol.gif"
 });
 
 function thoughts() {
