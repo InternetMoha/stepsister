@@ -36,6 +36,7 @@ cheet('2 2 2 0', function () {
   document.getElementById("download").href = "https://raddle.me/f/AntiCopyright/121477/how-to-anonymously-host-the-continued-development-of-youtube"
   document.getElementById("download").width = "30"
   document.getElementById("download").height = "30"
+  document.getElementById("emailme","href").href = "rip"
 
 });
 
@@ -63,11 +64,7 @@ function thoughts() {
       title += ' '
       element.textContent = title
 
-      const attr = document.createElement('a')
-      attr.setAttribute('href', post.data.url)
-      attr.setAttribute('target', '_blank')
-      attr.innerText = post.data.author.toLowerCase()
-      element.appendChild(attr)
+
     })
     .catch(e => {
       console.error(e)
