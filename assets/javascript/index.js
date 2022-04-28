@@ -5,7 +5,7 @@ $.getJSON(iplocation, (data) => {
   const ip = data.ip;
   const country = data.country_name ? data.country_name : 'your country';
 
-  $("p#ip").html(`<p class="top-right">${ip} ${country}</p>`);
+  $("p#ip").html(`<p class="top-right"> Are people real in ${country}?</p>`);
 })
 
 titleChanger = (text, delay) => {
@@ -21,7 +21,7 @@ titleChanger = (text, delay) => {
   }, delay);
 };
 
-titleChanger(["Cent#2220", "Cent@stepsister.top", "if you see this send nudes", "stepmommy.xyz/fmhy", "you're gonna die", "#TB4L"], 2000);
+titleChanger(["Cent#2220", "If you see this text me.","you're gonna die."], 2000);
 
 cheet('c e n t', function () {
   let audio = new Audio("../assets/others/gecs.mp3")
