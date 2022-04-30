@@ -21,7 +21,7 @@ titleChanger = (text, delay) => {
   }, delay);
 };
 
-titleChanger(["If you see this text me.", "you're gonna die."], 2000);
+titleChanger(["If you see this >", "you're gonna die."], 2000);
 
 cheet('c e n t', function () {
   let audio = new Audio("../assets/others/gecs.mp3")
